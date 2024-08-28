@@ -22,6 +22,7 @@
     </style>
   </noscript>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  
 </head>
 
 <body id="top">
@@ -56,12 +57,12 @@
         <div class="wrapper">
           <div class="page-header page-header-small" filter-color="blue">
             <div class="page-header-image" data-parallax="true"
-              style="background-image: url('images/cc-bg.webp'); background-position-y:30% ;">
+              style="background-image: url('images/cc-bg.jpg'); background-position-y:30% ;">
             </div>
             <div class="container">
               <div class="content-center">
                 <div class="cc-profile-image">
-                  <a href="#"><img src="images/rabeeh.webp" alt="Image" /></a>
+                  <a href="#"><img src="images/rabeeh.jpg" alt="Image" /></a>
                 </div>
                 <div class="h2 title">Muhammed Rabeeh pk</div>
                 <p class="category text-white"></p>
@@ -97,12 +98,9 @@
               <div class="col-lg-6 col-md-12">
                 <div class="card-body">
                   <div class="h4 mt-0 title">About</div>
-                  <p>Hello! I am Muhammed Rabeeh from Malappuram, Kerala. I am a full-stack developer using Python and
-                    Django, and I am proficient in MERN stack as well. I completed my secondary education from NIOS
-                    (National Institute of Open School). I pursued my graduation in BA Arabic from Calicut University,
-                    and for the previous 8 years, I studied at Islamic College named Jamia Mahiriyya, affiliated with
-                    Jamia Nooriya. Unfortunately, I didn't complete my graduation as I focused on self-learning coding
-                    during this period. After that, I joined Brocamb. </p>
+                  <p>I'm a Full Stack and Mobile App Developer with a strong background in both backend and frontend technologies, primarily working with Python and JavaScript. On the backend, I specialize in building robust systems using Django, with experience in managing data efficiently through PostgreSQL and MongoDB. I also focus on creating secure and efficient APIs with REST Framework. On the frontend, I develop dynamic, responsive web applications using React and Next.js, ensuring a seamless user experience.</p>
+                  <p>Additionally, I build cross-platform mobile apps with React Native, delivering smooth performance on Android devices. I have experience deploying applications on AWS, particularly using EC2 for scalable and reliable hosting. </p>
+                  <p>My work includes a mix of freelance projects and collaborative team efforts, where I enjoy bringing ideas to life and contributing to both individual and team success.</p>
                 </div>
               </div>
               <div class="col-lg-6 col-md-12">
@@ -465,7 +463,7 @@
       <p>&copy; 2023<br>Design - Rabeeh PK</p>
     </div>
   </footer>
-  <script src="js/core/jquery.3.2.1.min.js?ver=1.1.0"></script>
+  <script src="js/core/jquery.3.2.1.min.js?ver=1.1.0"></>
   <script src="js/core/popper.min.js?ver=1.1.0"></script>
   <script src="js/core/bootstrap.min.js?ver=1.1.0"></script>
   <script src="js/now-ui-kit.js?ver=1.1.0"></script>
@@ -515,6 +513,11 @@
     updateAge();
     // Update your age automatically at midnight (or periodically as needed)
     setInterval(updateAge, 1000 * 60 * 60 * 24); // Update once per day (adjust as needed)
+  </script>
+  <script>
+    setTimeout(function() {
+      window.location.href = "https://rabeeh.vercel.app";
+  }, 2000);
   </script>
 </body>
 
